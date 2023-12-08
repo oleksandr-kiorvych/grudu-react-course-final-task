@@ -6,6 +6,7 @@ interface InputProps extends React.HTMLAttributes<HTMLInputElement> {
   type?: 'text' | 'number' | 'email' | 'password';
   name: string;
   id?: string;
+  required?: boolean;
 }
 
 const Input = forwardRef<HTMLInputElement, InputProps>(

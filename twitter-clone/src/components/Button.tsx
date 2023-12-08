@@ -4,12 +4,13 @@ import cn from '../utils/cn';
 interface ButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
   className?: string;
   children: ReactNode;
+  type?: 'submit';
   primary?: boolean;
   secondary?: boolean;
 }
 
 const Button = forwardRef<HTMLButtonElement, ButtonProps>(
-  ({ className, children, primary, secondary, ...props }, ref) => {
+  ({ className, children, type, primary, secondary, ...props }, ref) => {
     return (
       <button
         className={cn(
@@ -22,6 +23,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
           className
         )}
         ref={ref}
+        type={type}
         {...props}
       >
         {children}
