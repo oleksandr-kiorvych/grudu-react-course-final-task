@@ -14,6 +14,46 @@
       "id": "3",
       "author_id": "ameliawarner",
       "text": "Describe your relationship with JavaScript with one word."
+    },
+    {
+      "text": "testtttt",
+      "author_id": "johnsmith",
+      "id": "XlaofMl"
+    },
+    {
+      "text": "testtttt",
+      "author_id": "johnsmith",
+      "id": "Qblm1rg"
+    },
+    {
+      "text": "testtttt",
+      "author_id": "johnsmith",
+      "id": "EzKmwaN"
+    },
+    {
+      "text": "testtasdsastt",
+      "author_id": "johnsmith",
+      "id": "1UGanyW"
+    },
+    {
+      "text": "testtttt",
+      "author_id": "johnsmith",
+      "id": "VL5CzJk"
+    },
+    {
+      "text": "testtttt",
+      "author_id": "johnsmith",
+      "id": "5FhtqLO"
+    },
+    {
+      "text": "Hi everyone <strong>aodnfa</strong>",
+      "author_id": "johnsmith",
+      "id": "ugVS0uL"
+    },
+    {
+      "text": "henlo",
+      "author_id": "johnsmith",
+      "id": "zIqNbQk"
     }
   ],
   "users": [
@@ -33,16 +73,46 @@
       "email": "ameliawarner@yahoo.com"
     },
     {
-      "id": "pwivwXU"
+      "email": "alex.k.kirovich@gmail.com",
+      "password": "1234",
+      "name": "Oleksandr",
+      "fullname": "Kirovych",
+      "id": "q8b_qia"
     },
     {
-      "id": "Y1D_-pb"
+      "email": "alex.k.kirovich@gmail.com",
+      "password": "1234",
+      "name": "Oleksandr",
+      "fullname": "Kirovych",
+      "id": "w_pq33F"
     },
     {
-      "id": "actYLTh"
+      "email": "alex.k.kirovich@gmail.com",
+      "password": "1234",
+      "name": "Oleksandr",
+      "fullname": "Kirovych",
+      "id": "N-1iSHX"
     },
     {
-      "id": "JiPV5fC"
+      "email": "alex.k.kirovich@gmail.com",
+      "password": "1234",
+      "name": "Oleksandr",
+      "fullname": "Kirovych",
+      "id": "2Wblj-8"
+    },
+    {
+      "email": "alex.k.kirovich@gmail.com",
+      "password": "1234",
+      "name": "Oleksandr",
+      "fullname": "Kirovych",
+      "id": "ROAbZCM"
+    },
+    {
+      "email": "alex.k.kirovich@gmail.com",
+      "password": "12345678",
+      "name": "Olek",
+      "fullname": "Kirovych",
+      "id": "ZDKO5p3"
     }
   ]
 }
