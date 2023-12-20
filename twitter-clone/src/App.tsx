@@ -1,10 +1,31 @@
-import { Outlet } from 'react-router-dom';
+import { useEffect } from 'react';
+import { Outlet, useNavigate } from 'react-router-dom';
+import Header from './components/Header';
+import { useUserStore } from './zustand/UserStore';
 
 function App() {
+  const navigate = useNavigate();
+  const setUser = useUserStore((state) => state.setUser);
+
+  const user = localStorage.getItem('user');
+
+  useEffect(() => {
+    if (!user) {
+      navigate('/auth/sign-in');
+      return;
+    }
+
+    setUser(JSON.parse(user));
+    navigate('/home');
+  }, [navigate, user, setUser]);
+
   return (
-    <main className="h-screen bg-stone-900 p-4">
-      <Outlet />
-    </main>
+    <>
+      <Header />
+      <main className="p-4 w-full">
+        <Outlet />
+      </main>
+    </>
   );
 }
 

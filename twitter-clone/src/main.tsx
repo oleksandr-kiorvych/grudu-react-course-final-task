@@ -7,25 +7,32 @@ import './index.css';
 import App from './App.jsx';
 import SignIn from './auth/SignIn.jsx';
 import SignUp from './auth/SignUp.jsx';
+import Auth from './auth/Auth.js';
+import Home from './home/Home.js';
 
 const router = createBrowserRouter([
   {
     path: '',
     element: <App />,
+
     children: [
       {
-        path: 'auth',
-
-        children: [
-          {
-            path: 'sign-in',
-            element: <SignIn />,
-          },
-          {
-            path: 'sign-up',
-            element: <SignUp />,
-          },
-        ],
+        path: 'home',
+        element: <Home />,
+      },
+    ],
+  },
+  {
+    path: 'auth',
+    element: <Auth />,
+    children: [
+      {
+        path: 'sign-in',
+        element: <SignIn />,
+      },
+      {
+        path: 'sign-up',
+        element: <SignUp />,
       },
     ],
   },
